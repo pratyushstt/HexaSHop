@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HexaShop</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--Navbar Starts Here-->
+        <div class="navbar">
+            <div class="link1">
+                <img src="images/hexashop.png" alt="">
+                <a href="#" class="title">
+                    HexaShop
+                </a>
+                <span>Online Shopping</span>
+            </div>
+            <div class="link2">
+                <a href="#" class="active">Home</a>
+                <a href="#">Mens</a>
+                <a href="#">Womens</a>
+                <a href="#">Kids</a>
+                <a href="#">Accessories</a>
+                <a href="#">Explore</a>
+            </div>
+        </div>
+        <!--Navbar Ends HEre-->
+        <hr/>
+        <!--Category Container Starts Here-->
+        <div class="outer">
+            <div class="inner1 container">
+                <img src="images/main.jpg" class="round-img" alt="" width="100%">
+                <div class="content">
+                    <div class="desc" style="text-align:left">
+                        <h1 class="main-heading">We are HEXASHOP</h1>
+                        <em>Wide Collection of trending fashion wear and accessories</em><br><br>
+                        <button>Explore</button>
+                    </div>
+                </div>
+            </div>
+            <div class="inner2">
+                <div class="inn1 container" onmouseover="hidearea(1)" onmouseout="showarea(1)">
+                    <img src="images/womens.png" class="round-img" alt="" width="240px">
+                    <div class="content" id="area1">
+                        <div class="desc">
+                            <p>Womens</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inn2 container" onmouseover="hidearea(2)" onmouseout="showarea(2)">
+                    <img src="images/mens.png" class="round-img" alt="" width="240px">
+                    <div class="content" id="area2">
+                        <div class="desc">
+                            <p>Mens</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inn3 container" onmouseover="hidearea(3)" onmouseout="showarea(3)">
+                    <img src="images/kids.png" class="round-img" alt="" width="240px">
+                    <div class="content" id="area3">
+                        <div class="desc">
+                            <p>Kids</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inn4 container" onmouseover="hidearea(4)" onmouseout="showarea(4)">
+                    <img src="images/access.jpg" class="round-img" alt="" width="240px">
+                    <div class="content" id="area4">
+                        <div class="desc">
+                            <p>Accessories</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Category Container Ends Here-->
+
+        <hr>
+        
+        <!--Womens Latest Starts Here-->
+        <div class="women-container">
+            <div class="women-inner1">
+                <span>&#x2039;</span>
+            </div>
+            <div class="women-inner2">
+                <h3 class="title">Women's Latest</h3><br>
+                <div class="women-cards">
+                    <div class="gallery w1">
+                        <img src="images/wsummer.png" alt="">
+                        <div class="wdesc">
+                            <h4>
+                                Ethnic Summer Wear
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </h4>
+                            <p>Starting &#x20B9;899</p>
+                        </div>
+                    </div>
+                    <div class="gallery w2">
+                        <img src="images/wdaily.png" alt="">
+                        <div class="wdesc">
+                            <h4>
+                                Smart Daily Wear
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </h4>
+                            <p>Starting &#x20B9;899</p>
+                        </div>
+                    </div>
+                    <div class="gallery w3">
+                        <img src="images/wsports.png" alt="">
+                        <div class="wdesc">
+                            <h4>
+                                Active Sports Wear
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </h4>
+                            <p>Starting &#x20B9;899</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="women-inner3">
+                <span>&#x203A;</span>
+            </div>
+        </div>
+        <!--Womens Latest Ends Here-->
+        
+        <!--Mens Latest Starts Here-->
+        <div class="women-container">
+            <div class="women-inner1">
+                <span>&#x2039;</span>
+            </div>
+            <div class="women-inner2">
+                <h3 class="title">Men's Latest</h3><br>
+                <div class="women-cards">
+                    <div class="gallery w1">
+                        <img src="images/methnic.png" alt="">
+                        <div class="wdesc">
+                            <h4>
+                                Ethnic Wear
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </h4>
+                            <p>Starting &#x20B9;899</p>
+                        </div>
+                    </div>
+                    <div class="gallery w2">
+                        <img src="images/mkurtas.png" alt="">
+                        <div class="wdesc">
+                            <h4>
+                                Everyday Kurtas
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </h4>
+                            <p>Starting &#x20B9;899</p>
+                        </div>
+                    </div>
+                    <div class="gallery w3">
+                        <img src="images/mcasual.png" alt="">
+                        <div class="wdesc">
+                            <h4>
+                                Casual Wear
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </h4>
+                            <p>Starting &#x20B9;899</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="women-inner3">
+                <span>&#x203A;</span>
+            </div>
+        </div>
+        <!--Mens Latest Ends Here-->
+        
+        <!--Kids Latest Starts Here-->
+        <div class="women-container">
+            <div class="women-inner1">
+                <span>&#x2039;</span>
+            </div>
+            <div class="women-inner2">
+                <h3 class="title">Kids Latest</h3><br>
+                <div class="women-cards">
+                    <div class="gallery w1">
+                        <img src="images/kbdaily.png" alt="">
+                        <div class="wdesc">
+                            <h4>
+                                Boys Daily Wear
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </h4>
+                            <p>Starting &#x20B9;499</p>
+                        </div>
+                    </div>
+                    <div class="gallery w2">
+                        <img src="images/kgdaily.png" alt="">
+                        <div class="wdesc">
+                            <h4>
+                                Girls Daily Wear
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </h4>
+                            <p>Starting &#x20B9;499</p>
+                        </div>
+                    </div>
+                    <div class="gallery w3">
+                        <img src="images/kfestive.png" alt="">
+                        <div class="wdesc">
+                            <h4>
+                                Festive Wear
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </h4>
+                            <p>Starting &#x20B9;649</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="women-inner3">
+                <span>&#x203A;</span>
+            </div>
+        </div>
+        <!--Kids Latest Ends Here-->
+        
+
+        <!--Explore More Starts Here-->
+        <div class="explore">
+            <div class="explore1">
+                <h3 class="title">Explore More....</h3>
+                <div class="ex">
+                    <p>
+                        We have wide range of mens and womens accessories. <br>
+                        Wallets, Belts, Perfume, Deodorants, Sunglasses, Trimmers,
+                        Ties, Cufflinks, Caps, Hats, Mufflers, Scarves, Gloves,
+                        Phone Cases. <br>
+                        Fashion Jewellery, Earning, Smart Wearables, Bluetooth Speakers, Earphones.
+                    </p>
+                    <button>Explore them</button>
+                </div>
+            </div>
+            <div class="explore2">
+                <div class="einn1">
+                    <img src="images/access1.png" alt="">
+                </div>
+                <div class="einn2">
+                    <img src="images/access2.png" alt="">
+                </div>
+                <div class="einn3">
+                    <img src="images/access3.png" alt="">
+                </div>
+                <div class="einn4">
+                    <img src="images/access4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!--Explore More Ends Here-->
+
+        <hr>
+        
+        <!--Social Media Starts Here-->
+        <div class="sm-container">
+            <h3 class="title">Social Media</h3>
+            <p>Details to details is what make HexaShop incredibly different from other Online Shopping Stores.</p>
+            <i class="fa fa-facebook" style="color: #4267B2"></i>
+            <i class="fa fa-instagram" style="color: #e95950"></i>
+            <i class="fa fa-twitter" style="color: #1DA1F2"></i>
+            <i class="fa fa-youtube" style="color: #ff0000"></i>
+            <i class="fa fa-linkedin" style="color: #0072b1"></i>
+            <i class="fa fa-pinterest" style="color: #ff0000"></i>
+        </div>
+        <!--Social Media Ends Here-->
+        
+        <hr>
+
+        <!--Newsletter Starts Here-->
+        <div class="newsl-container">
+            <div class="bb nld">
+                <h4 class="title">By Subscribing to our newsletter you <br> can get 30% off.</h4>
+                <input type="text" name="" id="" placeholder="Your Full Name......">
+                <input type="email" name="" id="" placeholder="Your Email Address......">
+                <button>Subscribe &nbsp;&nbsp; <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </div>
+            <div class="sld smb">
+                <p>Store Location</p>
+                Sunny Isles Beach, Fl <br>
+                33160, United States
+            </div>
+            <div class="whd smb">
+                <p>Working Hours</p>
+                09:00 - 23:00 <br>
+                Daily
+            </div>
+            <div class="phd smb">
+                <p>Phone</p>
+                010-128-2288 <br>
+                010-128-2299
+            </div>
+            <div class="emd smb">
+                <p>Email</p>
+                mail@hexashop.com <br>
+                help@hexashop.com
+            </div>
+            <div class="old smb">
+                <p>Office Location</p>
+                North Miami Beach
+            </div>
+            <div class="smd smb">
+                <p>Social Media</p>
+                Facebook, Twitter, <br>
+                Instagram, LinkedIn
+            </div>
+        </div>
+        <!--Newsletter End Here-->
+        
+
+        <!--Footer starts here-->
+        <div class="footer">
+            <div class="foot1">
+                <img src="images/hexashop-footer.png" alt=""> <br><br>
+                16501 Collins Ave, Sunny Isles Beach, <br>Fl 31360, United States. <br><br>mail@hexashop.com <br><br>010-128-2288
+            </div>
+            <div class="foot foot2">
+                <p>Shopping Categories</p>
+                <ul>
+                    <li>
+                        <a href="">Womens</a>
+                    </li>
+                    <li>
+                        <a href="">Mens</a>
+                    </li>
+                    <li>
+                        <a href="">Kids</a>
+                    </li>
+                    <li>
+                        <a href="">Accessories</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot foot3">
+                <p>Useful Links</p>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot foot4">
+                <p>Help & Information</p>
+                <ul>
+                    <li>
+                        <a href="">Help</a>
+                    </li>
+                    <li>
+                        <a href="">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="">Shipping Details</a>
+                    </li>
+                    <li>
+                        <a href="">Track Your Order</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer2">
+            <hr>
+            Copyright &#169; 2022 HexaShop Co. Ltd. All Rights Reserved. <br> Web Page Design by Pratyush Sharma.
+        </div>
+        <!--Footer ends here-->
+
+        <script>
+            function hidearea(x){    
+                document.getElementById("area"+x).style.visibility="hidden";
+            }
+            function showarea(x){
+                document.getElementById("area"+x).style.visibility="visible";
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HexaShop</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="link1">
+            <a href="#" class="title">HexaShop</a>
+            <span>Online Shopping</span>
+        </div>
+        <div class="link2">
+            <a href="#" class="active">Home</a>
+            <a href="#">Mens</a>
+            <a href="#">Womens</a>
+            <a href="#">Kids</a>
+            <a href="#">Accessories</a>
+            <a href="#">Explore</a>
+        </div>
+    </div>
+    <hr/>
+    <div class="grid-container-body">
+        <div class="item1 container">
+            
+        </div>
+        <div class="item2 container" onmouseover="hidearea(1)" onmouseout="showarea(1)">
+            <img src="images/womens.png" alt="" width="300px">
+            <div class="content" id="area1">
+                <div class="desc">
+                    <p>Women</p>
+                    <em>Best clothes for womens.</em>
+                </div>
+            </div>
+        </div>
+        <div class="item3 container" onmouseover="hidearea(2)" onmouseout="showarea(2)">            
+            <img src="images/mens.png" alt="" width="300px">
+            <div class="content" id="area2">
+                <div class="desc">
+                    <p>Men</p>
+                    <em>Best clothes for mens.</em>
+                </div>
+            </div>
+        </div>
+        <div class="item4 container" onmouseover="hidearea(3)" onmouseout="showarea(3)">
+            <img src="images/kids.png" alt="" width="300px">
+            <div class="content" id="area3">
+                <div class="desc">
+                    <p>Kids</p>
+                    <em>Best clothes for kids.</em>
+                </div>
+            </div>
+        </div>
+        <div class="item5 container" onmouseover="hidearea(4)" onmouseout="showarea(4)">
+            <img src="images/access.png" alt="" width="300px">
+            <div class="content" id="area4">
+                <div class="desc">
+                    <p>Accessories</p>
+                    <em>Best clothes for accessories.</em>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br>
+    <hr><hr><hr>
+
+    <script>
+        
+        function hidearea(x){
+            
+            document.getElementById("area"+x).style.visibility="hidden";
+        }
+        function showarea(x){
+            document.getElementById("area"+x).style.visibility="visible";
+        }
+    </script>
+</body>
+</html>
